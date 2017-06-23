@@ -1,0 +1,11 @@
+{
+  "name": "live",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live-server" : "./node_modules/.bin/live-server --port=58023"
+  },
+  "author": "",
+  "license": "ISC"
+}

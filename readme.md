@@ -1,13 +1,41 @@
 ### 项目介绍
 
-项目包含两个文件夹 ： `port8080` 和 `port58023`
-
 这是模拟启动两个服务器，他们都是`localhost`，但端口不同。采用这种方式模拟跨域问题
+
+### 目录结构
+
+```
+.
+├── JSONP
+│   ├── port58023
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── test.js
+│   │   └── test.txt
+│   └── port8080
+│       ├── index.html
+│       ├── package.json
+│       ├── test.js
+│       └── test.txt
+├── XHR
+│   ├── port58023
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── test.js
+│   │   └── test.txt
+│   └── port8080
+│       ├── index.html
+│       ├── package.json
+│       ├── test.js
+│       └── test.txt
+└── readme.md
+```
 
 ### 操作方式
 
-* `cd port8080`进入该子项目，启动服务器 `live-server`
-* `cd port58023`进入该子项目，启动服务器 `live-server`
+`XHR` 文件夹中
+* `cd XHR/port8080`进入该子项目，启动服务器 `live-server`
+* `cd XHR/port58023`进入该子项目，启动服务器 `live-server`
 
 ### 访问方式
 
